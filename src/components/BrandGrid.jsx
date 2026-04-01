@@ -6,7 +6,7 @@ const brands = [
     name: 'Firefox',
     highlight: true,
     note: 'Performance and lifestyle bicycles',
-    logo: 'https://firefoxlife.com/cdn/shop/files/Group_1.png?v=1761799452&width=300',
+    logo: 'https://firefoxlife.com/cdn/shop/files/Group_1.svg?v=1756724790',
   },
   {
     name: 'KeySto',
