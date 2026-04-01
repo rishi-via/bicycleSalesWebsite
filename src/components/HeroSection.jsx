@@ -4,6 +4,24 @@ import { ArrowRight, BadgeCheck, Bike, Zap } from 'lucide-react';
 export default function HeroSection() {
   return (
     <section className="px-4 pb-10 pt-8 sm:px-5 md:pb-16 md:pt-12">
+      <div className="mx-auto mb-4 flex max-w-6xl items-center justify-between gap-3 rounded-2xl bg-white/90 px-4 py-3 shadow-sm ring-1 ring-slate-100">
+        <div className="flex items-center gap-3">
+          <div className="flex h-11 w-11 items-center justify-center rounded-xl bg-gradient-to-br from-cycle-700 to-cycle-500 text-base font-bold text-white">
+            KSA
+          </div>
+          <div>
+            <p className="font-display text-base font-semibold tracking-tight text-asphalt-900">Kohinoor Sales Agency</p>
+            <p className="text-base text-slate-600">Bicycle Reseller and Stockist</p>
+          </div>
+        </div>
+        <a
+          href="mailto:contact@kohinoorsalesagency.com"
+          className="inline-flex min-h-[44px] min-w-[44px] items-center justify-center rounded-lg bg-cycle-600 px-4 text-base font-semibold text-white transition-all duration-200 hover:brightness-110 active:scale-[0.98]"
+        >
+          Contact
+        </a>
+      </div>
+
       <motion.div
         className="mx-auto max-w-6xl overflow-hidden rounded-3xl bg-gradient-to-br from-cycle-700 via-cycle-600 to-asphalt-800 p-6 text-white shadow-xl md:p-10"
         initial={{ opacity: 0, y: 20 }}
